@@ -1,0 +1,49 @@
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-08-31T14:53:46.157Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-08-31T14:53:46.167Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-08-31T14:55:44.707Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-08-31T14:55:44.712Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-08-31T14:55:47.317Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-08-31T14:55:47.328Z"}
+{"level":"info","message":"SIGINT received, shutting down...","timestamp":"2025-08-31T14:56:03.785Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-08-31T14:56:22.601Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-08-31T14:56:22.607Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-08-31T14:56:32.958Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-08-31T14:56:32.970Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-08-31T14:56:39.454Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-08-31T14:56:39.467Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-08-31T14:56:47.235Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-08-31T14:56:47.248Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-08-31T14:56:52.631Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-08-31T14:56:52.641Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-08-31T14:57:19.114Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-08-31T14:57:19.124Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-08-31T14:57:39.146Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-08-31T14:57:39.155Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-08-31T14:59:00.654Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-08-31T14:59:00.664Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-08-31T14:59:05.529Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-08-31T14:59:05.538Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-08-31T15:01:09.048Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-08-31T15:01:09.058Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-08-31T15:12:30.207Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-08-31T15:12:30.216Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-08-31T15:12:52.544Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-08-31T15:12:52.555Z"}
+{"level":"warn","message":"Router for path /auth is missing or invalid","timestamp":"2025-08-31T15:19:05.264Z"}
+{"level":"warn","message":"Router for path /classes is missing or invalid","timestamp":"2025-08-31T15:19:05.270Z"}
+{"level":"warn","message":"Router for path /budget is missing or invalid","timestamp":"2025-08-31T15:19:05.271Z"}
+{"level":"warn","message":"Router for path /study-tasks is missing or invalid","timestamp":"2025-08-31T15:19:05.272Z"}
+{"level":"warn","message":"Router for path /todos is missing or invalid","timestamp":"2025-08-31T15:19:05.273Z"}
+{"level":"warn","message":"Router for path /notes is missing or invalid","timestamp":"2025-08-31T15:19:05.274Z"}
+{"level":"warn","message":"Router for path /questions is missing or invalid","timestamp":"2025-08-31T15:19:05.275Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-08-31T15:19:08.100Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-08-31T15:19:08.102Z"}
+{"level":"warn","message":"Router for path /auth is missing or invalid","timestamp":"2025-08-31T15:19:36.797Z"}
+{"level":"warn","message":"Router for path /classes is missing or invalid","timestamp":"2025-08-31T15:19:36.802Z"}
+{"level":"warn","message":"Router for path /budget is missing or invalid","timestamp":"2025-08-31T15:19:36.802Z"}
+{"level":"warn","message":"Router for path /study-tasks is missing or invalid","timestamp":"2025-08-31T15:19:36.803Z"}
+{"level":"warn","message":"Router for path /todos is missing or invalid","timestamp":"2025-08-31T15:19:36.804Z"}
+{"level":"warn","message":"Router for path /notes is missing or invalid","timestamp":"2025-08-31T15:19:36.804Z"}
+{"level":"warn","message":"Router for path /questions is missing or invalid","timestamp":"2025-08-31T15:19:36.805Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-08-31T15:19:38.978Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-08-31T15:19:38.980Z"}
