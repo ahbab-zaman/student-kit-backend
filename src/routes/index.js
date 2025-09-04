@@ -1,11 +1,11 @@
 const express = require("express");
-const authMiddleware = require("../middlewares/auth");
+// const authMiddleware = require("../middlewares/auth");
 const authRouter = require("./auth");
 const classRouter = require("./classes");
-const budgetRouter = require("./budget");
+const budgetRouter = require("../routes/budget");
 const studyTaskRouter = require("./studyTasks");
 const todoRouter = require("./todos");
-const noteRouter = require("./notes");
+const scheduleRouter = require("./schedule");
 const questionRouter = require("./questions");
 const logger = require("../utils/logger");
 
@@ -16,37 +16,30 @@ const routers = [
   {
     path: "/auth",
     router: authRouter,
-    middlewares: [], // No auth middleware for auth routes
   },
   {
     path: "/classes",
     router: classRouter,
-    middlewares: [authMiddleware],
   },
   {
     path: "/budget",
     router: budgetRouter,
-    middlewares: [authMiddleware],
   },
   {
     path: "/study-tasks",
     router: studyTaskRouter,
-    middlewares: [authMiddleware],
   },
   {
     path: "/todos",
     router: todoRouter,
-    middlewares: [authMiddleware],
   },
   {
-    path: "/notes",
-    router: noteRouter,
-    middlewares: [authMiddleware],
+    path: "/schedule",
+    router: scheduleRouter,
   },
   {
     path: "/questions",
     router: questionRouter,
-    middlewares: [authMiddleware],
   },
 ];
 
@@ -57,21 +50,20 @@ console.log("Router status:", {
   budget: !!budgetRouter,
   studyTasks: !!studyTaskRouter,
   todos: !!todoRouter,
-  notes: !!noteRouter,
+  schedules: !!scheduleRouter,
   questions: !!questionRouter,
 });
 
 // Dynamically attach routes
 routers.forEach(({ path, router, middlewares }) => {
-  if (router && typeof router === "function") {
-    logger.info(`Mounting route: ${path}`);
+  if (router && router.use) {
     if (middlewares && middlewares.length > 0) {
       apiRouter.use(path, ...middlewares, router);
     } else {
       apiRouter.use(path, router);
     }
   } else {
-    logger.warn(`Router for path ${path} is missing or invalid`);
+    console.warn(`Router for path ${path} is missing or invalid`);
   }
 });
 

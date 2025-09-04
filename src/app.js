@@ -35,13 +35,13 @@ app.get("/", (req, res) => {
   });
 });
 
+// Root API endpoint
+app.use("/api/v1", apiRouter);
+
 // 404 handler
 app.use((req, res, next) => {
   res.status(404).json({ message: "Route not found" });
 });
-
-// Root API endpoint
-app.use("/api/v1", apiRouter);
 
 // Error handling
 app.use(errorMiddleware);

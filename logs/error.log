@@ -1,1 +1,0 @@
-{"level":"error","message":"Error while closing MongoDB connection: mongoose is not defined","stack":"ReferenceError: mongoose is not defined\n    at process.<anonymous> (C:\\My Projects\\Student tool kit\\Student-tool-backend\\src\\server.js:77:5)\n    at process.emit (node:events:518:28)","timestamp":"2025-08-31T14:56:03.790Z"}
