@@ -45,4 +45,4 @@ const scheduleSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-module.exports = mongoose.model("Schedule", scheduleSchema);
+module.exports = mongoose.model("schedule", scheduleSchema);

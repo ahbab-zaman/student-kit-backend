@@ -48,12 +48,20 @@ const scheduleController = {
 
   async remove(req, res) {
     try {
-      const deleted = await scheduleService.deleteSchedule(req.params.id);
+      const { id } = req.params;
+      // Validate ObjectId format
+      if (!id.match(/^[0-9a-fA-F]{24}$/)) {
+        return res.status(400).json({ message: "Invalid schedule ID format" });
+      }
+      const deleted = await scheduleService.deleteSchedule(id);
       if (!deleted) {
         return res.status(404).json({ message: "Schedule not found" });
       }
       res.json({ message: "Schedule deleted successfully" });
     } catch (error) {
+      if (error.name === "CastError") {
+        return res.status(400).json({ message: "Invalid schedule ID format" });
+      }
       res.status(500).json({ message: error.message });
     }
   },

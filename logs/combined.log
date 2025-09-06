@@ -55,3 +55,58 @@
 {"level":"info","message":"GET /api/v1/budget","timestamp":"2025-09-04T16:02:41.018Z"}
 {"level":"info","message":"GET /api/v1/budget","timestamp":"2025-09-04T16:02:43.376Z"}
 {"level":"info","message":"GET /api/v1/budget","timestamp":"2025-09-04T16:02:43.438Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-04T16:08:03.512Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-09-04T16:08:03.520Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-06T14:24:40.622Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-09-06T14:24:40.633Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:33:03.909Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:33:04.061Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:38:24.038Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:38:24.118Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:38:38.218Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:38:38.294Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:40:42.928Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:43:19.665Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:43:19.751Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:43:44.736Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:43:44.803Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:45:50.247Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:45:50.321Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:46:01.083Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:46:05.413Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:46:05.488Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:50:13.632Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:50:14.009Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:53:23.026Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:53:23.112Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:53:48.960Z"}
+{"level":"info","message":"POST /api/v1/schedule","timestamp":"2025-09-06T14:54:02.269Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:54:17.645Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:54:17.727Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:57:40.030Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T14:57:40.243Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T15:00:32.011Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T15:00:32.199Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T15:06:45.852Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T15:06:45.930Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T15:10:10.961Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T15:10:11.024Z"}
+{"level":"info","message":"PUT /api/v1/schedule/68b9afd0b1d2b6c3af91e2f9","timestamp":"2025-09-06T15:12:22.340Z"}
+{"level":"info","message":"GET /api/v1/budget","timestamp":"2025-09-06T15:15:34.178Z"}
+{"level":"info","message":"GET /api/v1/budget","timestamp":"2025-09-06T15:15:34.354Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T15:15:53.211Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T15:15:53.272Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T15:16:45.203Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T15:16:45.279Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T15:18:15.682Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T15:18:15.867Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T15:24:15.057Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T15:24:15.233Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-06T15:28:04.931Z"}
+{"level":"info","message":"Server is alive on PORT:5000 in undefined environment","timestamp":"2025-09-06T15:28:04.961Z"}
+{"level":"info","message":"GET /api/v1/budget","timestamp":"2025-09-06T15:29:08.277Z"}
+{"level":"info","message":"GET /api/v1/budget","timestamp":"2025-09-06T15:29:08.435Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T15:29:15.043Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T15:29:15.221Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T15:29:56.063Z"}
+{"level":"info","message":"GET /api/v1/schedule","timestamp":"2025-09-06T15:30:03.078Z"}
