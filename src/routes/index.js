@@ -4,9 +4,9 @@ const authRouter = require("./auth");
 const classRouter = require("./classes");
 const budgetRouter = require("../routes/budget");
 const studyTaskRouter = require("./studyTasks");
-const todoRouter = require("./todos");
+const todoRouter = require("./todo");
 const scheduleRouter = require("./schedule");
-const questionRouter = require("./questions");
+const quizRouter = require("./quiz");
 const logger = require("../utils/logger");
 
 const apiRouter = express.Router();
@@ -38,8 +38,8 @@ const routers = [
     router: scheduleRouter,
   },
   {
-    path: "/questions",
-    router: questionRouter,
+    path: "/quizzes",
+    router: quizRouter,
   },
 ];
 
@@ -51,7 +51,7 @@ console.log("Router status:", {
   studyTasks: !!studyTaskRouter,
   todos: !!todoRouter,
   schedules: !!scheduleRouter,
-  questions: !!questionRouter,
+  quizzes: !!quizRouter,
 });
 
 // Dynamically attach routes
